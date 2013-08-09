@@ -22,40 +22,131 @@
         <title>{{ page.title }}</title>
         
         <link rel="stylesheet" href="/stylesheets/main.css">
-        
-        <link href="resources/webfonts/ss-social.css" rel="stylesheet" />
 
-        <script src="javascripts/vendor/custom.modernizr.js"></script>
+        <link href="/resources/webfonts/ss-social.css" rel="stylesheet" />
+
+        <script src="/foundation/js/vendor/custom.modernizr.js"></script>
 
     </head>
     <body>
+      <div class="row">
+        <div class="large-12 columns">
 
-        <div class="container">
-          <div class="site">
-            <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <a class="extra" href="/">home</a>
+          <nav class="top-bar">
+              <ul class="title-area">
+                <!-- Title Area -->
+                <li class="name">
+                  <h1><a href="#">{{ site.name }}</a></h1>
+                </li>
+                <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+              </ul>
+
+              <section class="top-bar-section">
+                <!-- Left Nav Section -->
+                <ul class="left">
+                  <li class="divider"></li>
+                  <li class="active"><a href="/our-work">our work</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/contact">contact</a></li>
+                  <li class="divider"></li>   
+                </ul> 
+              </section>
+          </nav>
+
+          {{ content }}
+
+          <div class="row featured-boxes-row">
+            <div class="large-3 columns panel radius">
+              <h2>blog</h2>
+              <article>
+                <p><a href="">Vivamus at eleifend diam</a></p>
+                <time datetime="2012-12-12 08:00">December 12, 2012</time>  
+              </article>
+              <article>
+                <p><a href="">Lorem ipsum dolor sit amet</a></p>
+                <time datetime="2012-12-2 08:00">December 2, 2012</time>  
+              </article>
             </div>
 
-                {{ content }}
-
-            <div class="footer">
-              <div class="contact">
-                <p>
-                  Your Name<br />
-                  What You Are<br />
-                  your@email.com
-                </p>
+            <div class="large-4 large-offset-1 columns panel radius">
+              <h2>latest tweet <i class="ss-icon ss-social-circle">twitter</i></h2>
+              <div id="twitter-tweet-lc">
+                      
               </div>
-              <div class="contact">
-                <p>
-                  <a href="http://github.com/yourusername/">github.com/yourusername</a><br />
-                  <a href="http://twitter.com/yourusername/">twitter.com/yourusername</a><br />
-                </p>
+            </div>
+
+            <div class="large-3 large-offset-1 columns panel radius">
+              <h2>connect</h2>
+              <div class="row icons">
+                    
+                <ul>
+                  <li><a href="https://www.facebook.com/pages/funnel-city/116078648412866"><i class="ss-icon ss-social-circle">twitter</i>twitter</a></li>
+                  <li><a href="https://twitter.com/funnelcity"><i class="ss-icon ss-social-circle">facebook</i>facebook</a></li>
+                  <li><a href="https://plus.google.com/107681499603787125959"><i class="ss-icon ss-social-circle">google+</i>google+</a></li>
+                </ul>
+            
               </div>
             </div>
           </div>
-        </div> <!-- /container -->
+
+          <div class="large-12 columns">
+            <footer>
+              <span><a href="#"><small>funnel city</small></a> <small>&copy; 2012</small></span>
+              <dl class="sub-nav">
+                <dd><a href="#"><small>privacy policy</small></a></dd>
+                <dd><a href="#"><small>site map</small></a></dd>
+              </dl>
+            </footer>
+          </div>
+    
+        </div>
+      </div>
+
+
+
+        <script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? 'foundation/js/vendor/zepto' : 'foundation/js/vendor/jquery') +
+  '.js><\/script>')
+  </script>
+  
+  <script src="/foundation/js/foundation/foundation.js"></script>
+  
+  <script src="/foundation/js/foundation/foundation.abide.js"></script>
+  
+  <script src="/foundation/js/foundation/foundation.alerts.js"></script>
+  
+  <script src="/foundation/js/foundation/foundation.clearing.js"></script>
+  
+  <script src="/foundation/js/foundation/foundation.cookie.js"></script>
+  
+  <script src="/foundation/js/foundation/foundation.dropdown.js"></script>
+  
+  <script src="/foundation/js/foundation/foundation.forms.js"></script>
+  
+  <script src="/foundation/js/foundation/foundation.interchange.js"></script>
+  
+  <script src="/foundation/js/foundation/foundation.joyride.js"></script>
+  
+  <script src="/foundation/js/foundation/foundation.magellan.js"></script>
+  
+  <script src="/foundation/js/foundation/foundation.orbit.js"></script>
+  
+  <script src="/foundation/js/foundation/foundation.placeholder.js"></script>
+  
+  <script src="/foundation/js/foundation/foundation.reveal.js"></script>
+  
+  <script src="/foundation/js/foundation/foundation.section.js"></script>
+  
+  <script src="/foundation/js/foundation/foundation.tooltips.js"></script>
+  
+  <script src="/foundation/js/foundation/foundation.topbar.js"></script>
+  
+  
+  <script>
+    $(document).foundation();
+  </script>
 
     </body>
 </html>
