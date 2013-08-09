@@ -1,0 +1,8 @@
+<h2>blog</h2>
+
+<ul class="posts">
+    {% for post in site.posts limit:3 %}
+      <li><span>{{ post.date | date_to_string }}</span> <br/> <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
+
