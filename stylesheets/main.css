@@ -2816,40 +2816,43 @@ h2 { color: #eac65a !important; text-shadow: 0px 1px 0px #999999; font-size: ms(
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/jekyll-funnelcity\.com\/foundation\/scss\/_funnelcity\.scss}line{font-family:\00003138}}
 #twitter-tweet-lc li { display: block; margin-bottom: 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/jekyll-funnelcity\.com\/foundation\/scss\/_funnelcity\.scss}line{font-family:\00003150}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/jekyll-funnelcity\.com\/foundation\/scss\/_funnelcity\.scss}line{font-family:\00003145}}
+.blog-feed { list-style-type: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/jekyll-funnelcity\.com\/foundation\/scss\/_funnelcity\.scss}line{font-family:\00003152}}
 .icons ul { list-style-type: none; margin-left: 15px; margin-bottom: 0px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/jekyll-funnelcity\.com\/foundation\/scss\/_funnelcity\.scss}line{font-family:\00003154}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/jekyll-funnelcity\.com\/foundation\/scss\/_funnelcity\.scss}line{font-family:\00003156}}
 .icons ul li { margin-bottom: 0px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/jekyll-funnelcity\.com\/foundation\/scss\/_funnelcity\.scss}line{font-family:\00003157}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/jekyll-funnelcity\.com\/foundation\/scss\/_funnelcity\.scss}line{font-family:\00003159}}
 .icons a { display: inline-table; margin-bottom: 0px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/jekyll-funnelcity\.com\/foundation\/scss\/_funnelcity\.scss}line{font-family:\00003162}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/jekyll-funnelcity\.com\/foundation\/scss\/_funnelcity\.scss}line{font-family:\00003164}}
 .icons i { color: #333333; font-size: ms(2); display: inline-table; margin-top: 5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/jekyll-funnelcity\.com\/foundation\/scss\/_funnelcity\.scss}line{font-family:\00003168}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/jekyll-funnelcity\.com\/foundation\/scss\/_funnelcity\.scss}line{font-family:\00003170}}
 .icons i.ss-icon { margin-right: 5px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/jekyll-funnelcity\.com\/foundation\/scss\/_funnelcity\.scss}line{font-family:\00003174}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/jekyll-funnelcity\.com\/foundation\/scss\/_funnelcity\.scss}line{font-family:\00003176}}
 .panel.radius { border-radius: 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/jekyll-funnelcity\.com\/foundation\/scss\/_funnelcity\.scss}line{font-family:\00003177}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/jekyll-funnelcity\.com\/foundation\/scss\/_funnelcity\.scss}line{font-family:\00003179}}
 .panel { background-color: #fdfefb; box-shadow: -1px 1px 3px #acb7b1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/jekyll-funnelcity\.com\/foundation\/scss\/_funnelcity\.scss}line{font-family:\00003180}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/jekyll-funnelcity\.com\/foundation\/scss\/_funnelcity\.scss}line{font-family:\00003182}}
 .panel .radius { border-radius: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/jekyll-funnelcity\.com\/foundation\/scss\/_funnelcity\.scss}line{font-family:\00003184}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/jekyll-funnelcity\.com\/foundation\/scss\/_funnelcity\.scss}line{font-family:\00003186}}
 .panel article p { margin-bottom: 0px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/jekyll-funnelcity\.com\/foundation\/scss\/_funnelcity\.scss}line{font-family:\00003187}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/jekyll-funnelcity\.com\/foundation\/scss\/_funnelcity\.scss}line{font-family:\00003189}}
 .panel article time { display: block; margin-bottom: 15px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/jekyll-funnelcity\.com\/foundation\/scss\/_funnelcity\.scss}line{font-family:\00003194}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/jekyll-funnelcity\.com\/foundation\/scss\/_funnelcity\.scss}line{font-family:\00003196}}
 dl.sub-nav { display: inline; float: right; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/jekyll-funnelcity\.com\/foundation\/scss\/_funnelcity\.scss}line{font-family:\00003200}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/jekyll-funnelcity\.com\/foundation\/scss\/_funnelcity\.scss}line{font-family:\00003202}}
 .footer { text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/jekyll-funnelcity\.com\/foundation\/scss\/_funnelcity\.scss}line{font-family:\00003203}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/jekyll-funnelcity\.com\/foundation\/scss\/_funnelcity\.scss}line{font-family:\00003205}}
 .footer a, .footer dl.sub-nav dd { margin-right: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/jekyll-funnelcity\.com\/foundation\/scss\/_funnelcity\.scss}line{font-family:\00003206}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/jekyll-funnelcity\.com\/foundation\/scss\/_funnelcity\.scss}line{font-family:\00003208}}
 .footer a, .footer dl.sub-nav dd:last-child { margin-right: 0px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/jekyll-funnelcity\.com\/foundation\/scss\/_funnelcity\.scss}line{font-family:\00003210}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/jekyll-funnelcity\.com\/foundation\/scss\/_funnelcity\.scss}line{font-family:\00003212}}
 .footer a, .footer span, .footer dl.sub-nav dd a { font-size: ms(2); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/jekyll-funnelcity\.com\/foundation\/scss\/_funnelcity\.scss}line{font-family:\00003215}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laura\/Sites\/jekyll-funnelcity\.com\/foundation\/scss\/_funnelcity\.scss}line{font-family:\00003217}}
 .row.footer { margin-bottom: 30px; }

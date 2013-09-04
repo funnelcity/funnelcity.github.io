@@ -1,3 +1,4 @@
 name: funnel city
 markdown: redcarpet
 pygments: true
+permalink: /:title/
