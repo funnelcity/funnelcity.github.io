@@ -16,7 +16,6 @@ window.onorientationchange = function() {
 
 	    	var portfolioImages = $('.portfolio-image');
 
-	    	console.log('11111');
 	    	portfolioImages.each(function(){
 
 		    	var pimage = $(this);

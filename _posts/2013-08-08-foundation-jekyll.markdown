@@ -5,9 +5,9 @@ date:   2013-08-08 21:00:00
 categories: jekyll update zurb foundation
 ---
 
-I just setup standalone zurb foundation 4 + jekyll.rb on funnel city's website. This task had been on my to do list for quite a while now and I am really glad to cross it off my to-do list today! 
+zurb Foundation 4 + jekyll.rb  has been setup on funnel city's public website. This task had been on the to do list for quite a while now and it is really exciting to cross it off the list today! 
 
-I'm still not completely done with it, I still have to port over the page with the slider and contact form.
+The site is still under construction, the slider and contact form need to be ported over.
 
-I'm loving the much needed mobile first approach taken to revamp the framework. It is definitely a lot easier to use than version 3.
+The mobile first approach taken to revamp the zurb Foundation framework is awesome. It is definitely a lot easier to use than version 3 for sure.
 

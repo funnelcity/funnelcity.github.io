@@ -1,3 +1,10 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
 html{
 	background-color:#eaeaea;
 	background-image:url('/images/bg/gray_jean.png');
@@ -35,7 +42,20 @@ html{
 		border-left:1px solid #676767;
 	}
 
+	.left li a{
+		font-size:emCalc(15);
+		line-height:25px
+	}
+	.left li a i{
+		margin-right:7px;
+		font-size:emCalc(20);
+		vertical-align:middle;
+	}
+
 } 
+
+
+
 
 a{
 	color:$darkAqua;
@@ -235,6 +255,10 @@ dl.sub-nav{
 		width:165px;
 	}
 
+	.top-bar-section .left li a{
+		line-height:43px;
+	}
+
 
 
 }
@@ -250,6 +274,15 @@ dl.sub-nav{
 }
 .contact .telephone{
 	margin-top:25px;
+
+	a{
+		font-size:emCalc(20); 
+		i{
+		margin-right:10px;
+		font-size:emCalc(30);
+		vertical-align:middle;
+		}
+	}
 }
 
 .qontacto_form{
@@ -286,5 +319,47 @@ dl.sub-nav{
 .orbit-bullets{
 	left:50%;
 	margin-left:-36px;
+}
+
+
+
+
+
+
+
+
+
+.icons{ 
+	ul{
+		list-style-type: none;
+		margin-left:15px;
+		margin-bottom:0px;
+		li{margin-bottom:0px;}
+	}
+
+	a{
+		display:inline-table;
+		margin-bottom:0px;
+
+	}
+	i{
+		color:$darkGrey;
+		font-size:ms(2);
+		display:inline-table;
+		margin-top:5px;
+	}
+	i.ss-icon{
+		margin-right:5px;
+	}
+}
+
+button, .button{
+	background-color:$aqua;
+	border-color:$darkAqua;
+}
+button:hover, .button:hover{
+	background-color:$rose;
+	border-color:$darkRose;
+
 }
 
