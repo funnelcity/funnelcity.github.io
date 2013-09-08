@@ -1,0 +1,290 @@
+html{
+	background-color:#eaeaea;
+	background-image:url('/images/bg/gray_jean.png');
+	
+	body{
+		background-color:transparent;
+	}
+}
+
+
+/**** top bar ****/
+.top-bar{
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	background:$menubg;
+	margin-top:30px;
+}
+.top-bar h1{visibility:hidden;}
+.logo{
+	display:block;
+	width:120px;
+	margin:15px auto;
+	z-index:10;
+}
+.top-bar-section{
+
+	ul li.active > a, li a:not(.button) {
+		background:$menubg;
+	}
+
+	> ul > .divider, > ul > [role="separator"]{
+		border-right:1px solid #4b4b4b;
+		border-left:1px solid #676767;
+	}
+
+} 
+
+a{
+	color:$darkAqua;
+	/*font-weight:bold;*/
+}
+a:hover{
+	color:$darkRose;
+}
+span.has-tip,
+span.has-tip:hover{border-bottom-width:0px;}
+span.has-tip:hover{
+	color:$darkYellow;
+}
+
+small.error{background-color:$warningRose;}
+input.error{
+	border-color:$warningRose;
+	
+	color:$darkGrey;
+}
+
+
+
+
+
+/**** headings ****/
+h1{
+	color:$darkRose;
+	text-shadow: 0px 1px 1px $lightGrey;
+	font-family: 'Miltonian Tattoo', cursive;
+	font-weight:bold;
+	font-size:emCalc(40);
+}
+h2{
+	color:$darkYellow !important;
+	text-shadow: 0px 1px 0px $lightGrey;
+	font-size:emCalc(32);
+	font-weight:bold;
+	font-family: 'Lobster Two', cursive;
+}
+
+
+
+/**** homepage circle ****/
+.stylish{
+	display:block;
+	width:200px;
+	height:200px;
+	border-radius:132px;
+	border:4px solid $darkAqua;
+	font-size:20px;
+	color:#666;
+	line-height:100px;
+	text-align:center;
+	text-decoration:none;
+	text-shadow:0 1px 0 #fff;
+	background:$lightAqua;
+	margin:0 auto;
+	margin-bottom:20px;
+	box-shadow:0px 3px 8px #aaa, inset 0px 2px 3px #fff;
+}
+.stylish:hover{
+	border:4px solid $darkYellow;
+	color:#aaa;
+	text-decoration:none;
+	background:$lightYellow;  
+}
+
+.stylish img{
+	-webkit-transition:all 1.5s ease 0.25s;
+	-moz-transition:all 1.5s ease 0.25s;
+	-o-transition:all 1.5s ease 0.25s;
+	-ms-transition:all 1.5s ease 0.25s;
+	transition:all 1.5s ease 0.25s;
+}
+
+.stylish:hover img{
+	-webkit-transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+	transform:rotate(360deg);
+}
+
+
+
+
+
+.reveal-modal h2{
+	color:$darkRose;
+}
+.reveal-modal .lead{
+	color:$darkAqua;
+}
+
+
+.featured-boxes-row{
+	padding-top:25px;
+}
+.featured-box{
+	min-height:175px;
+}
+
+#twitter-tweet-lc{
+	list-style-type: none;
+	li{
+		display:block;
+		margin-bottom:10px;
+	}
+}
+
+
+.blog-feed{
+	list-style-type: none;
+}
+
+
+
+.icons{ 
+	ul{
+		list-style-type: none;
+		margin-left:15px;
+		margin-bottom:0px;
+		li{margin-bottom:0px;}
+	}
+
+	a{
+		display:inline-table;
+		margin-bottom:0px;
+
+	}
+	i{
+		color:$darkGrey;
+		font-size:ms(2);
+		display:inline-table;
+		margin-top:5px;
+	}
+	i.ss-icon{
+		margin-right:5px;
+	}
+}
+
+
+.panel.radius{
+	border-radius:10px;
+}
+.panel{ 
+	background-color: $logoWhite;
+	box-shadow: -1px 1px 3px $logoGrey;
+	.radius{
+		border-radius:10px;
+	}
+
+	article p{
+		margin-bottom:0px;
+	}
+	article time{
+		display:block;
+		margin-bottom:15px;
+	}
+}
+
+
+dl.sub-nav{
+	display:inline;
+	float:right;
+}
+
+
+.footer{
+	
+	text-align:center;
+	a, dl.sub-nav dd{
+		margin-right:10px;
+	}
+	a, dl.sub-nav dd:last-child{
+		margin-right:0px;
+	}
+
+	a, span, dl.sub-nav dd a{
+		font-size:ms(2);
+	}
+	
+}
+.row.footer{
+	margin-bottom:30px;
+}
+
+@media only screen and (min-width: 940px) {
+	.logo{
+		position:absolute;
+		margin:10px 0 0 25px;
+	}
+
+	.top-bar h1{
+		visibility:hidden;
+		width:165px;
+	}
+
+
+
+}
+
+.container{
+	position:relative;
+}
+#map_canvas{
+	width:100%;
+	height:200px;
+	border-radius:10px;
+	
+}
+.contact .telephone{
+	margin-top:25px;
+}
+
+.qontacto_form{
+	width:100%;
+	height:355px;
+	border:0;
+}
+
+@media #{$small} { 
+	#map_canvas{
+		height:435px;
+	}
+	.contact .telephone{
+		margin-top:0px;
+	}
+}
+
+.TopLeft, .TopRight, .BottomLeft, .BottomRight {
+	position:absolute;
+	z-index:1000;
+	background-image: url(/images/interface/map-overlay.png);
+	width:10px;height:10px;
+}
+
+.TopLeft {left: 0; top: 0;}
+.TopRight {right: 0; top: 0; background-position: top right;}
+.BottomRight {right: 0; bottom: 0; background-position: bottom right;}
+.BottomLeft {left: 0; bottom: 0; background-position: bottom left;}
+
+
+.orbit-container{
+	background:transparent;
+}
+.orbit-bullets{
+	left:50%;
+	margin-left:-36px;
+}
+
